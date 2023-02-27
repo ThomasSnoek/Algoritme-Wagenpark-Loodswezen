@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.OrTools" Version="9.5.2237" />
+    <PackageReference Include="Google.OrTools.FSharp" Version="9.2.9972" />
+    <PackageReference Include="Google.OrTools.runtime.win-x64" Version="9.5.2237" />
+  </ItemGroup>
+
+</Project>
